@@ -1,0 +1,131 @@
+.first-screen {
+  padding: 57px 0 38px;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../icons/first_screen_background.png') no-repeat center / cover; */
+  background: url('../icons/first_screen_background.png') no-repeat center /
+    cover;
+  position: relative;
+}
+
+.first-screen::after {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.first-screen .container {
+  position: relative;
+  z-index: 1;
+}
+
+.first-screen .content {
+  align-items: flex-start;
+}
+
+.first-screen__about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.first-screen__title {
+  margin-bottom: 42px;
+}
+
+.first-screen .logo {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70px;
+}
+
+.first-screen__description {
+  max-width: 544px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  color: rgb(255, 255, 255);
+}
+
+.first-screen .heading__title {
+  display: block;
+  text-align: left;
+}
+
+.first-screen .heading__title::after {
+  margin-top: 32px;
+  background-color: rgb(255, 255, 255);
+}
+
+.first-screen__footer {
+  max-width: 282px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  margin-bottom: 39px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.first-screen__sign {
+  position: relative;
+  width: 370px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.sign__container {
+  padding: 21px 59px 61px;
+}
+
+.first-screen__form-title p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sign__container h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 64px;
+}
+
+.first-screen__form-title--highlighted {
+  color: rgb(236, 121, 121);
+}
+
+.sign__container > * {
+  margin-bottom: 19px;
+}
+
+.sign__container > *:last-child {
+  margin-bottom: 0;
+}
+
+.first-screen__label {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(189, 189, 189);
+}
+
+.first-screen__input {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.first-screen__button {
+  padding: 21px 0;
+  width: 100%;
+  background-color: rgb(236, 121, 121);
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+  border: none;
+  cursor: pointer;
+}

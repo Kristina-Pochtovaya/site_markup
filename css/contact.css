@@ -1,0 +1,78 @@
+.contact {
+  padding: 80px 0 44px;
+}
+
+.contact .heading {
+  margin-bottom: 91px;
+}
+
+.contact .heading__description p {
+  color: rgb(134, 135, 139);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form__inputs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-form__inputs > * {
+  width: 40%;
+}
+
+.contact .button {
+  align-self: center;
+}
+
+.user-about__input {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form__input {
+  /* width: 478px; */
+  line-height: 32px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.contact-form__label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: rgb(189, 189, 189);
+}
+
+.conheighttact-form__input[type='password'] {
+  line-height: 36px;
+}
+
+.user-about__input--email {
+  margin-top: 32px;
+}
+
+.user-about__input--password {
+  margin-top: 42px;
+}
+
+.user-about__input--message {
+  justify-content: space-between;
+}
+
+.user-about__input--message textarea {
+  flex: 1;
+}
+
+.user-about__input--message textarea {
+  resize: none;
+}
+
+.contact .button {
+  margin-top: 74px;
+}

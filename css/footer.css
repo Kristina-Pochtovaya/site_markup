@@ -1,0 +1,37 @@
+.footer {
+  background-color: rgb(0, 0, 0);
+  padding: 30px 0 15px;
+}
+
+.footer .content {
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .content > * {
+  margin-bottom: 18px;
+}
+
+.footer .content > *:last-child {
+  margin-bottom: 0;
+}
+
+.footer__buttons-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -5px;
+}
+
+.footer__buttons-list--button {
+  font-size: 14px;
+  line-height: 23px;
+  color: rgb(134, 135, 139);
+  margin: 0 5px;
+}
+
+.footer__сopyright-notice p {
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}

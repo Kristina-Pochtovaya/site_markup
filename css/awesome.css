@@ -1,0 +1,63 @@
+.awesome {
+  padding: 80px 0 123px;
+}
+
+.awesome .heading {
+  margin-bottom: 92px;
+}
+
+.awesome .content {
+  margin: 0 -15px;
+}
+
+.awesome .card {
+  margin: 0 15px;
+}
+
+.awesome .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+}
+
+/* .awesome .card-image {
+  width: 70px;
+  height: 70px;
+  border: 1px solid rgb(231, 36, 36);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+} */
+
+.awesome i {
+  width: 70px;
+  height: 70px;
+  border: 1px solid rgb(231, 36, 36);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.awesome .fa-lightbulb,
+.fa-keyboard,
+.awesome .fa-bolt-lightning {
+  font-size: 24px;
+  line-height: 30px;
+  color: rgb(233, 124, 28);
+}
+
+.awesome .card__title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.awesome .card__description p {
+  text-align: center;
+  font-size: 14px;
+}

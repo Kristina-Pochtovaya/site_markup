@@ -1,0 +1,90 @@
+.social-media {
+  padding: 14px 0 17px;
+  background-color: rgb(248, 239, 239);
+}
+
+.social-media .content {
+  align-items: center;
+}
+
+.social-media .content > * {
+  flex: 1 0 auto;
+}
+
+.social-media__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.social-media__description > * {
+  margin-bottom: 14px;
+}
+
+.social-media__description > *:last-child {
+  margin-bottom: 0;
+}
+
+.social-media__description h3 {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.social-media__description p {
+  font-size: 14px;
+  line-height: 19px;
+  color: rgb(134, 135, 139);
+  max-width: 365px;
+}
+
+.social-media__buttons-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -5px;
+}
+
+.social-media__buttons-list li {
+  margin: 0 5px;
+}
+
+.social-media__buttons-list--button {
+  font-size: 34px;
+  line-height: 42px;
+  color: rgba(134, 135, 139, 0.5);
+  transition: transform 0.2s;
+}
+
+.social-media__buttons-list--button:hover {
+  transform: scale(1.5) rotate(360deg);
+}
+
+.social-media__buttons-list .fa-facebook-f:hover {
+  color: rgb(59, 89, 152);
+}
+
+.social-media__buttons-list .fa-twitter:hover {
+  color: rgb(0, 172, 238);
+}
+
+.social-media__buttons-list .icon-google-plus:hover {
+  display: inline-block;
+  color: rgb(219, 74, 57);
+}
+
+.social-media__buttons-list .fa-pinterest:hover {
+  color: rgb(230, 0, 35);
+}
+
+.social-media__buttons-list .icon-instagram:hover {
+  display: inline-block;
+  color: rgb(63, 114, 155);
+}
+
+.social-media__buttons-list .fa-stumbleupon:hover {
+  color: rgb(242, 47, 70);
+}
+
+.social-media__buttons-list .fa-rss:hover {
+  color: rgb(59, 89, 152);
+}

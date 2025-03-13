@@ -1,0 +1,157 @@
+.tabs {
+  padding: 126px 0 205px;
+}
+
+.tab-data {
+  display: flex;
+}
+
+.tab-data__contaner {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+
+.tab-data__contaner > * {
+  margin: 0 -15px;
+}
+
+.tab-data__contaner--active {
+  display: flex;
+}
+
+.tabs-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs-list__button {
+  padding: 45px 35px;
+  font-weight: 700;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(51, 51, 51);
+  font-family: 'Open Sans';
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.tabs-list__button:last-child {
+  margin-bottom: 0;
+}
+
+.tabs-list__button--active {
+  background-color: rgba(236, 121, 121);
+}
+
+.tab-data__content {
+  width: 572px;
+  margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tab-data__title {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 58px;
+}
+
+.tab-data__description p {
+  margin-bottom: 28px;
+  text-transform: uppercase;
+  color: rgb(134, 135, 139);
+  font-weight: 400px;
+  font-size: 14px;
+}
+
+.tab-data__description p:last-child {
+  margin-bottom: 0;
+}
+
+.tabs .download-link {
+  background-color: rgb(236, 121, 121);
+  align-self: flex-start;
+}
+
+.tab-data__image {
+  width: 320px;
+  height: 253px;
+}
+
+.tab-data__image img {
+  object-fit: contain;
+  object-position: top left;
+  width: 100%;
+  height: 100%;
+}
+
+@media all and (max-width: 1200px) {
+  .tabs .container {
+    max-width: 970px;
+  }
+
+  .tab-data__content {
+    width: 472px;
+  }
+
+  .tab-data__image {
+    width: 250px;
+    height: 183px;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .tabs .container {
+    max-width: 870px;
+  }
+
+  .tab-data__content {
+    width: 350px;
+  }
+
+  .tab-data__image {
+    width: 150px;
+    height: 133px;
+  }
+
+  .tab-data__description {
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .tabs .container {
+    max-width: 670px;
+  }
+
+  .tab-data__content {
+    width: 200px;
+  }
+
+  .tab-data__image {
+    width: 100px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 566px) {
+  .tabs .container {
+    max-width: 500px;
+  }
+
+  .content .tabs-list,
+  .tab-data__content {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .tabs .container {
+    max-width: 300px;
+  }
+}
